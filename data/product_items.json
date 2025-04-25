@@ -1,21 +1,122 @@
-[
-    {
-      "name": "Bánh su kem",
-      "image": "resources/images/sukem.jpg",
-      "price": 15000,
-      "description": "Bánh su kem đa dạng với hai loại nguyên liệu..."
-    },
-    {
-      "name": "Bánh bông lan",
-      "image": "resources/images/bonglan.jpg",
-      "price": 20000,
-      "description": "Bánh bông lan mềm, xốp, vị thơm ngon."
-    },
-    {
-      "name": "Bánh tiramisu",
-      "image": "resources/images/tiramisu.jpg",
-      "price": 35000,
-      "description": "Tiramisu nổi tiếng với lớp kem phô mai ngậy và hương café đặc trưng."
-    }
-  ]
-  
+[{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+},
+{
+  "name": "Bánh su kem",
+  "image": "resources/images/sukem.jpg",
+  "price": 15000,
+  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
+}]
