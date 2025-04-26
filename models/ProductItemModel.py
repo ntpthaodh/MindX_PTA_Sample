@@ -9,8 +9,7 @@ class ProductItemModel:
         self.image = image
 
     def matches(self, search_term):
-        return (search_term.lower() in self.name.lower() or
-                search_term.lower() in self.description.lower())
+        return search_term.lower() in self.name.lower()
     
     def is_within_price_range(self, min_price, max_price):
         return min_price <= self.price <= max_price

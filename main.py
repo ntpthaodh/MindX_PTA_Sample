@@ -19,7 +19,7 @@ class MainController(QObject):
 
         
         # Hiển thị màn hình đăng nhập đầu tiên
-        self.current_screen = self.screens["login"]
+        self.current_screen = self.screens["home"]
         self.current_screen.show()
         
         self.user_logged_in.connect(lambda username: self.screens["home"].current_user.setText(f"Xin chào, {username}!"))

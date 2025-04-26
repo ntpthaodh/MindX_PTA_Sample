@@ -10,14 +10,14 @@ class ProductItemController:
         return self.product_item_list
     
     def load_from_json(self, file_path):
-        with open(file_path, 'r') as file:
+        with open(file_path, 'r', encoding='utf-8') as file:
             product_items_data = json.load(file)
             for item in product_items_data:
                 product_item = ProductItemModel.from_dict(item)
                 self.product_item_list.append(product_item)
 
     def save_to_json(self, file_path):
-        with open(file_path, 'w') as file:
+        with open(file_path, 'w', encoding='utf-8') as file:
             product_items_data = [item.to_dict() for item in self.product_item_list]
             json.dump(product_items_data, file, indent=4)
     

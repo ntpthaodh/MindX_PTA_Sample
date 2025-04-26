@@ -17,8 +17,9 @@ class ProductItemWidget(QWidget):
         image_pixmap = QPixmap(product.image)
         self.image.setPixmap(image_pixmap)
         self.image.setScaledContents(True)  
+        self.image.setMaximumHeight(223)  # Giới hạn chiều cao hình ảnh
 
         # Đặt giá sản phẩm
         self.price.setText(f"{product.price} VND")
         
-        self.setFixedSize(250, 300)  # Adjust as needed
+        self.setFixedSize(250, 350)  # Adjust as needed
