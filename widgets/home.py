@@ -1,10 +1,9 @@
 from PyQt6 import uic
 from PyQt6.QtWidgets import QMainWindow, QScrollArea, QGridLayout, QVBoxLayout, QWidget, QLabel
 from PyQt6.QtGui import QPixmap
-from PyQt6.QtCore import QPropertyAnimation, QRect
+from PyQt6.QtCore import QPropertyAnimation, QRect, Qt
 from widgets.product_item import ProductItemWidget
-from data.product_items import product_items
-
+from controllers.ProductItemController import ProductItemController
 class HomeWidget(QMainWindow):
     def __init__(self, controller):
         super().__init__()
@@ -12,12 +11,11 @@ class HomeWidget(QMainWindow):
         uic.loadUi("ui/home.ui", self)
 
         self.controller = controller
+        self.product_item_controller = ProductItemController()
 
-        print("Tìm QLabel current_user:", self.current_user)
-
-        # if self.controller.get_current_user():
-        #     current_user = self.controller.get_current_user()
-        #     self.current_user.setText(f"Xin chào, {current_user['username']}!")
+        if self.controller.get_current_user():
+            current_user = self.controller.get_current_user()
+            self.current_user.setText(f"Xin chào, {current_user['username']}!")
 
 
         # Cài đặt ban đầu cho btn_menu
@@ -35,21 +33,45 @@ class HomeWidget(QMainWindow):
 
         # Kết nối sự kiện cho btn_logout
         self.btn_logout.clicked.connect(self.handle_logout)
-        
-        # Tạo layout QGridLayout
-        self.grid_layout = QGridLayout(self.scroll_area_widget_contents)
-        self.grid_layout.setSpacing(10)  # Khoảng cách giữa các widget
+
+        # Kết nối sự kiện cho btn_search
+        self.btn_search.clicked.connect(self.handle_search)
+
+        self.product_items = self.product_item_controller.product_item_list
+        self.display_product_items()
+    
+    def handle_search(self):
+        keyword = self.input_search.text()
+        self.product_items = self.product_item_controller.find_product_item_by_name(keyword)
+        self.display_product_items()
+
+    def clear_layout(self, layout):
+        while layout.count():
+            child = layout.takeAt(0)
+            if child.widget():
+                child.widget().deleteLater()
+
+    def display_product_items(self):
+        """Hiển thị danh sách sản phẩm"""
+        # Nếu đã có layout thì xóa nó đi
+        # Nếu không thì tạo mới layout
+        if hasattr(self, 'grid_layout'):
+            self.clear_layout(self.grid_layout)
+        else:
+            # Tạo layout QGridLayout
+            self.grid_layout = QGridLayout(self.scroll_area_widget_contents)
+            self.grid_layout.setSpacing(10)  # Khoảng cách giữa các widget
+            self.grid_layout.setAlignment(Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)  # Căn trái và căn trên cho các widget trong layout
 
         # Cấu hình layout để có 5 cột
         row, col = 0, 0
-        for product in product_items:
+        for product in self.product_items:
             product_widget = ProductItemWidget(product, self)  
             self.grid_layout.addWidget(product_widget, row, col)
             col += 1
-            if col == 4:  #4 columns
+            if col == 5:  #5 columns
                 col = 0
                 row += 1
-    
         
     def toggle_menu(self):
         if self.menu_visible:

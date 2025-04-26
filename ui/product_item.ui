@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>250</width>
+    <width>200</width>
     <height>300</height>
    </rect>
   </property>
@@ -19,82 +19,49 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true">background-color:white;
-padding: 8px;
-border-radius: 16px;</string>
-  </property>
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>231</width>
+     <width>181</width>
      <height>281</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout" stretch="2,1,1">
+   <layout class="QVBoxLayout" name="verticalLayout">
     <property name="spacing">
-     <number>12</number>
+     <number>6</number>
     </property>
     <item>
      <widget class="QLabel" name="image">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>200</width>
-        <height>140</height>
-       </size>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border-radius: 8px;</string>
-      </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>image</string>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QLabel" name="name">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
       <property name="styleSheet">
-       <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+       <string notr="true">font: 75 12pt &quot;Roboto&quot;;
+font-weight: 500</string>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>name</string>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QLabel" name="price">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
       <property name="styleSheet">
-       <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
-color: rgb(170, 0, 0);</string>
+       <string notr="true">color: rgb(170, 0, 0);
+font: 75 12pt &quot;Roboto&quot;;
+font-weight: 500;</string>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>price</string>
       </property>
      </widget>
     </item>

@@ -159,7 +159,7 @@ border-radius: 16px;</string>
       <string>Search</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="btn_search_">
+    <widget class="QPushButton" name="btn_search">
      <property name="geometry">
       <rect>
        <x>870</x>
