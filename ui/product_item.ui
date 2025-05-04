@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>200</width>
+    <width>250</width>
     <height>300</height>
    </rect>
   </property>
@@ -24,7 +24,7 @@
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>181</width>
+     <width>231</width>
      <height>281</height>
     </rect>
    </property>
@@ -32,14 +32,17 @@
     <property name="spacing">
      <number>6</number>
     </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
     <property name="topMargin">
-     <number>16</number>
+     <number>0</number>
     </property>
     <property name="rightMargin">
-     <number>12</number>
+     <number>0</number>
     </property>
     <property name="bottomMargin">
-     <number>16</number>
+     <number>0</number>
     </property>
     <item>
      <widget class="QLabel" name="image">

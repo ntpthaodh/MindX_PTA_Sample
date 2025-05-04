@@ -1,9 +1,7 @@
 from PyQt6.QtWidgets import QWidget, QVBoxLayout, QLabel, QSizePolicy
 from PyQt6.QtGui    import QPixmap
 from PyQt6 import uic
-
-CARD_W, CARD_H = 200, 300          # chiều cao cố định
-IMG_H          = 140
+from widgets.product_item_detail import ProductItemDetailDialog  # Import the detail dialog
 
 class ProductItemWidget(QWidget):
     def __init__(self, product, parent=None):
@@ -23,3 +21,7 @@ class ProductItemWidget(QWidget):
         self.price.setText(f"{product.price} VND")
         
         self.setFixedSize(250, 350)  # Adjust as needed
+
+    def mousePressEvent(self, event):
+        detail_dialog = ProductItemDetailDialog(self.product, self)
+        detail_dialog.exec()

@@ -55,7 +55,6 @@ class HomeWidget(QMainWindow):
             self.clear_layout(self.grid_layout)
         else:
             self.grid_layout = QGridLayout(self.scroll_area_widget_contents)
-            self.grid_layout.setSpacing(10)  # Khoảng cách giữa các widget
             self.grid_layout.setAlignment(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignLeft) # Căn chỉnh lên trên cùng
 
         # Cấu hình layout để có 5 cột
@@ -64,9 +63,10 @@ class HomeWidget(QMainWindow):
             product_widget = ProductItemWidget(product, self)  
             self.grid_layout.addWidget(product_widget, row, col)
             col += 1
-            if col == 5:  #5 columns
+            if col == 4:  #5 columns
                 col = 0
                 row += 1
+
     def handle_search(self):
         # Get the search term from the input field and update product list.
         search_term = self.input_search.text().strip()
