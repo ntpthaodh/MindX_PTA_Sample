@@ -11,11 +11,6 @@ class MainController(QObject):
         super().__init__()
         self.current_user = None  # Quản lý trạng thái user hiện tại
 
-        # Khởi tạo các màn hình
-        # self.login_screen = LoginWidget(self)
-        # self.register_screen = RegisterWidget(self)
-        # self.home_screen = HomeWidget(self)
-
         self.screens = {
             "login":  LoginWidget(self),
             "register": RegisterWidget(self),
@@ -27,7 +22,7 @@ class MainController(QObject):
         self.current_screen = self.screens["home"]
         self.current_screen.show()
         
-        # self.user_logged_in.connect(lambda username: self.screens["home"].current_user.setText(f"Xin chào, {username}!"))
+        self.user_logged_in.connect(lambda username: self.screens["home"].current_user.setText(f"Xin chào, {username}!"))
 
 
     def set_current_user(self, user):

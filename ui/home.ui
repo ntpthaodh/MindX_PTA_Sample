@@ -83,7 +83,7 @@ QPushButton:hover {
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../resources/icons/home.png</normaloff>../resources/icons/home.png</iconset>
+       <normaloff>C:/Users/ThaoNguyen1/.designer/resources/icons/home.png</normaloff>C:/Users/ThaoNguyen1/.designer/resources/icons/home.png</iconset>
      </property>
      <property name="default">
       <bool>false</bool>
@@ -116,7 +116,7 @@ QPushButton:hover {
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../resources/icons/logout.png</normaloff>../resources/icons/logout.png</iconset>
+       <normaloff>C:/Users/ThaoNguyen1/.designer/resources/icons/logout.png</normaloff>C:/Users/ThaoNguyen1/.designer/resources/icons/logout.png</iconset>
      </property>
      <property name="default">
       <bool>false</bool>
@@ -164,7 +164,7 @@ border-radius: 16px;</string>
       <rect>
        <x>870</x>
        <y>8</y>
-       <width>31</width>
+       <width>40</width>
        <height>40</height>
       </rect>
      </property>
@@ -197,7 +197,7 @@ border-radius: 16px;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../resources/icons/colored-logo.png</pixmap>
+     <pixmap>C:/Users/ThaoNguyen1/.designer/resources/icons/colored-logo.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -229,7 +229,7 @@ border-radius: 16px;</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../resources/icons/hambuger.png</normaloff>../resources/icons/hambuger.png</iconset>
+      <normaloff>C:/Users/ThaoNguyen1/.designer/resources/icons/hambuger.png</normaloff>C:/Users/ThaoNguyen1/.designer/resources/icons/hambuger.png</iconset>
     </property>
     <property name="flat">
      <bool>true</bool>

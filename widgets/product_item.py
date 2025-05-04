@@ -9,13 +9,17 @@ class ProductItemWidget(QWidget):
     def __init__(self, product, parent=None):
         super().__init__(parent)
         self.product = product
-        uic.loadUi("ui/product_item.ui", self)
 
-        self.name.setText(product.name) 
-        self.price.setText(f"{product.price} VNĐ")
-
+        uic.loadUi('ui/product_item.ui', self)
+        self.name.setText(product.name)
+        
+        # Đặt hình ảnh sản phẩm
         image_pixmap = QPixmap(product.image)
         self.image.setPixmap(image_pixmap)
-        self.image.setMaximumHeight(200)  # Giới hạn chiều cao của hình ảnh
+        self.image.setScaledContents(True)  
+        self.image.setMaximumHeight(223)  # Giới hạn chiều cao hình ảnh
 
-        self.setFixedSize(200, 300)  # Thiết lập kích thước cố định cho widget
+        # Đặt giá sản phẩm
+        self.price.setText(f"{product.price} VND")
+        
+        self.setFixedSize(250, 350)  # Adjust as needed
