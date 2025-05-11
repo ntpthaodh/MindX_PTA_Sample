@@ -26,3 +26,8 @@ class ProductItemController:
     
     def filter_product_items_by_price(self, min_price, max_price):
         return [item for item in self.product_item_list if item.is_within_price_range(min_price, max_price)]
+
+    def add_product_item(self, name, price, description, image):
+        product_item = ProductItemModel(None, name, price, description, image)
+        self.product_item_list.append(product_item)
+        self.save_to_json("data/product_items.json")

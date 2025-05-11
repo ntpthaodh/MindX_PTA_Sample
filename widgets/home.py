@@ -1,9 +1,11 @@
 from PyQt6 import uic
-from PyQt6.QtWidgets import QMainWindow, QScrollArea, QGridLayout, QVBoxLayout, QWidget
+from PyQt6.QtWidgets import QMainWindow, QDialog, QGridLayout, QVBoxLayout, QWidget
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtCore import QPropertyAnimation, QRect, Qt
 from widgets.product_item import ProductItemWidget
 from controllers.ProductItemController import ProductItemController
+from models.ProductItemModel import ProductItemModel
+from widgets.product_item_editing import ProductItemEditingWidget
 class HomeWidget(QMainWindow):
     def __init__(self, controller):
         super().__init__()
@@ -11,7 +13,6 @@ class HomeWidget(QMainWindow):
         uic.loadUi("ui/home.ui", self)
 
         self.controller = controller
-        self.product_item_controller = ProductItemController()
 
         if self.controller.get_current_user():
             current_user = self.controller.get_current_user()
@@ -32,12 +33,15 @@ class HomeWidget(QMainWindow):
         # Kết nối sự kiện cho btn_logout
         self.btn_logout.clicked.connect(self.handle_logout)
 
-        self.product_controller = ProductItemController()  
-
         # Kết nối sự kiện cho btn_search    
         self.btn_search.clicked.connect(self.handle_search)
-        
+        # Kết nối sự kiện cho btn_create_product
+        self.btn_create_product.clicked.connect(self.handle_create_product)
+
         # Cấu hình ban đầu cho list_product_items (chưa search)
+        self.product_controller = ProductItemController()  
+        self.initialize()
+    def initialize(self):
         self.product_items = self.product_controller.search_product_items("")
         self.load_product_items()
 
@@ -91,3 +95,10 @@ class HomeWidget(QMainWindow):
     def handle_logout(self):
         self.controller.set_current_user(None)
         self.controller.navigate_to("login")
+
+    def handle_create_product(self):
+        # Create a new product with empty or default values; product_item model
+        edit_dialog = ProductItemEditingWidget(None, self)
+        edit_dialog.exec() 
+        if edit_dialog.exec() == QDialog.DialogCode.Accepted:
+            self.initialize()  # Reload the product items after adding a new one

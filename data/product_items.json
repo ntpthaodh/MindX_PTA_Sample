@@ -1,122 +1,163 @@
-[{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh dừa",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-},
-{
-  "name": "Bánh su kem",
-  "image": "resources/images/sukem.jpg",
-  "price": 15000,
-  "description": "Bánh su kem đa dạng với hai loại nguyên liệu: trứng và đư��ng phục vụ cho món ��n ngon."
-}]
+[
+    {
+        "id": "1a3a3333-b4ca-42e0-8b16-ce2a99b823e6",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "2a5a174e-30cb-439b-95d2-5c763829d42c",
+        "name": "B\u00e1nh",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "ab25e3f2-c9af-49d2-949d-c931a2d86fdc",
+        "name": "B\u00e1nh d\u1eeba",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "641c5974-9eb3-4890-b3eb-f66cf75a1d78",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "dc852cd3-6c88-4701-ab77-208e6f711682",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "67035b1c-53fb-4495-9b98-50c53b8e613a",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "643aec49-ad57-43d5-b8cb-685cbaf85aa7",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "2e02e46c-4e07-4ddd-b4e3-669a0540d413",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "f4c213c3-dbc8-416e-81d5-e43d5bc355bc",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "ff4ec7df-e598-4f2a-912e-68f0e8ecd8bb",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "27820481-ef63-4065-b320-337d4b7cceb2",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "446a19d7-e619-4f6b-ae4e-37fd2deda613",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "d0606ab9-3f9b-4c3f-8311-49deaaf3f2d6",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "c2aaea5d-59de-4d17-81ed-c02053dbdeed",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "ee3c1dde-510e-4a67-a887-bcfea814ea93",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "8253683b-9bd6-467a-aab1-47d454d72b48",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "79150610-42b3-4fdc-983b-3e19bb100e92",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "210c055f-100e-484b-8086-83345b1853a9",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "b41fb681-52c5-47f1-9856-7531b451e833",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "a200a167-8eef-4943-adaa-44e9b3f4f616",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "6e9e7587-b093-4952-8a46-b1d22ea25981",
+        "name": "B\u00e1nh su kem",
+        "price": 15000,
+        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
+        "image": "resources/images/sukem.jpg"
+    },
+    {
+        "id": "428d83d5-d034-41cf-a12b-9152493e91ac",
+        "name": "\u00e2",
+        "price": "a",
+        "description": "1\t",
+        "image": "D:/Projects/PTA Sample Project/resources/images/sukem.jpg"
+    },
+    {
+        "id": "065d4a6e-5c94-4c85-b6dd-0af554baeb70",
+        "name": "a",
+        "price": "a1",
+        "description": "1",
+        "image": "D:/Projects/PTA Sample Project/resources/images/sukem.jpg"
+    }
+]
