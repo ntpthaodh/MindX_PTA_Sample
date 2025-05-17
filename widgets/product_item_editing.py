@@ -24,10 +24,10 @@ class ProductItemEditingWidget(QDialog):
         description = self.input_description.toPlainText()
         image = self.selected_image_path
         # Save the product if parent has a product_controller with a save method
-        parent = self.parent()
+        parent = self.parent() #HomeWidget
         if parent:
+            #Gọi đến hàm add_product_item trong ProductItemController của HomeWidget
             parent.product_controller.add_product_item(name, price, description, image)
             QMessageBox.information(self, "Success", "Product item created successfully!")
             # Close the dialog after creation
         super().accept()
-        

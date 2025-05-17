@@ -16,6 +16,7 @@
   <property name="styleSheet">
    <string notr="true">* {
 font: 10pt &quot;Roboto&quot;;
+background: white;
 }
 QLineEdit, QTextEdit {
 	padding: 8px;
@@ -141,10 +142,13 @@ QLineEdit, QTextEdit {
     <item>
      <widget class="QLabel" name="preview_image">
       <property name="text">
-       <string>image</string>
+       <string>Preview image</string>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </item>

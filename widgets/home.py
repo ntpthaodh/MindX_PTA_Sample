@@ -41,10 +41,12 @@ class HomeWidget(QMainWindow):
         # Cấu hình ban đầu cho list_product_items (chưa search)
         self.product_controller = ProductItemController()  
         self.initialize()
+
     def initialize(self):
+        # Tạo danh sách sản phẩm ban đầu
         self.product_items = self.product_controller.search_product_items("")
         self.load_product_items()
-
+        
     def clear_layout(self, layout):
         # Xóa tất cả các widget trong layout
         while layout.count():
@@ -63,8 +65,8 @@ class HomeWidget(QMainWindow):
 
         # Cấu hình layout để có 5 cột
         row, col = 0, 0
-        for product in  self.product_items:
-            product_widget = ProductItemWidget(product, self)  
+        for idx, product in enumerate(self.product_items):
+            product_widget = ProductItemWidget(product, self, idx)  
             self.grid_layout.addWidget(product_widget, row, col)
             col += 1
             if col == 4:  #5 columns
@@ -96,9 +98,9 @@ class HomeWidget(QMainWindow):
         self.controller.set_current_user(None)
         self.controller.navigate_to("login")
 
+    
     def handle_create_product(self):
         # Create a new product with empty or default values; product_item model
         edit_dialog = ProductItemEditingWidget(None, self)
         edit_dialog.exec() 
-        if edit_dialog.exec() == QDialog.DialogCode.Accepted:
-            self.initialize()  # Reload the product items after adding a new one
+        self.initialize()

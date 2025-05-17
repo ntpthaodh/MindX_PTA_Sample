@@ -4,10 +4,10 @@ from PyQt6 import uic
 from widgets.product_item_detail import ProductItemDetailDialog  # Import the detail dialog
 
 class ProductItemWidget(QWidget):
-    def __init__(self, product, parent=None):
+    def __init__(self, product, parent=None, index =0):
         super().__init__(parent)
         self.product = product
-
+        self.index = index
         uic.loadUi('ui/product_item.ui', self)
         self.name.setText(product.name)
         
@@ -23,5 +23,5 @@ class ProductItemWidget(QWidget):
         self.setFixedSize(250, 350)  # Adjust as needed
 
     def mousePressEvent(self, event):
-        detail_dialog = ProductItemDetailDialog(self.product, self)
+        detail_dialog = ProductItemDetailDialog(self.product, self, self.index)
         detail_dialog.exec()

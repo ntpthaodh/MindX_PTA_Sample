@@ -18,7 +18,10 @@ class ProductItemController:
 
     def save_to_json(self, file_path):
         with open(file_path, 'w', encoding='utf-8') as file:
-            product_items_data = [item.to_dict() for item in self.product_item_list]
+            product_items_data = []
+            for item in self.product_item_list:
+                item_data = item.to_dict()
+                product_items_data.append(item_data)
             json.dump(product_items_data, file, indent=4)
     
     def search_product_items(self, search_term):
@@ -30,4 +33,8 @@ class ProductItemController:
     def add_product_item(self, name, price, description, image):
         product_item = ProductItemModel(None, name, price, description, image)
         self.product_item_list.append(product_item)
+        self.save_to_json("data/product_items.json")
+    
+    def delete_product_item(self, index):
+        self.product_item_list.pop(index)   
         self.save_to_json("data/product_items.json")

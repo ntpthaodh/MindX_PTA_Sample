@@ -70,13 +70,6 @@
         "image": "resources/images/sukem.jpg"
     },
     {
-        "id": "27820481-ef63-4065-b320-337d4b7cceb2",
-        "name": "B\u00e1nh su kem",
-        "price": 15000,
-        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
-        "image": "resources/images/sukem.jpg"
-    },
-    {
         "id": "446a19d7-e619-4f6b-ae4e-37fd2deda613",
         "name": "B\u00e1nh su kem",
         "price": 15000,
@@ -147,17 +140,10 @@
         "image": "resources/images/sukem.jpg"
     },
     {
-        "id": "428d83d5-d034-41cf-a12b-9152493e91ac",
-        "name": "\u00e2",
-        "price": "a",
-        "description": "1\t",
-        "image": "D:/Projects/PTA Sample Project/resources/images/sukem.jpg"
-    },
-    {
-        "id": "065d4a6e-5c94-4c85-b6dd-0af554baeb70",
-        "name": "a",
-        "price": "a1",
-        "description": "1",
-        "image": "D:/Projects/PTA Sample Project/resources/images/sukem.jpg"
+        "id": "d2d65ca8-df62-4499-8ab0-91ff2429690f",
+        "name": "tiramisu",
+        "price": "123",
+        "description": "a",
+        "image": "D:/Projects/PTA Sample Project/resources/images/tiramisu.jpg"
     }
 ]
