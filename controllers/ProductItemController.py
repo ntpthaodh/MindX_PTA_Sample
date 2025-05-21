@@ -38,3 +38,14 @@ class ProductItemController:
     def delete_product_item(self, index):
         self.product_item_list.pop(index)   
         self.save_to_json("data/product_items.json")
+    
+    def update_product_item(self, index, name, price, description, image):
+        if 0 <= index < len(self.product_item_list):
+            product = self.product_item_list[index]
+            product.name = name
+            product.price = price
+            product.description = description
+            product.image = image
+            self.save_to_json("data/product_items.json")
+        else:
+            raise IndexError("Product index out of range")

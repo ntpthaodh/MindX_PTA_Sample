@@ -2,14 +2,7 @@
     {
         "id": "1a3a3333-b4ca-42e0-8b16-ce2a99b823e6",
         "name": "B\u00e1nh su kem",
-        "price": 15000,
-        "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
-        "image": "resources/images/sukem.jpg"
-    },
-    {
-        "id": "2a5a174e-30cb-439b-95d2-5c763829d42c",
-        "name": "B\u00e1nh",
-        "price": 15000,
+        "price": "15000",
         "description": "B\u00e1nh su kem \u0111a d\u1ea1ng v\u1edbi hai lo\u1ea1i nguy\u00ean li\u1ec7u: tr\u1ee9ng v\u00e0 \u0111\u01b0\ufffd\ufffdng ph\u1ee5c v\u1ee5 cho m\u00f3n \ufffd\ufffdn ngon.",
         "image": "resources/images/sukem.jpg"
     },
